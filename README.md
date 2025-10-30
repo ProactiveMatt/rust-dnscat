@@ -64,5 +64,7 @@ dnscat-client example.com. --server 127.0.0.1:53531 \
   --insecure --session-name my-session --exec nc -l 8081
 ```
 
+Ensure the FQDN ends with a single full stop - you want this in *most* cases.
+
 [DNSCAT2 protocol]: https://github.com/iagox86/dnscat2/blob/master/doc/protocol.md
 
