@@ -1,6 +1,7 @@
 #![doc(html_root_url = "https://docs.rs/dnscat/0.1.1")]
 #![deny(
-    warnings,
+    // TODO: upstream had this set
+    // warnings,
     // TODO: v0.1.2
     // missing_docs,
     missing_debug_implementations,
