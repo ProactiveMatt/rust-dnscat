@@ -126,7 +126,8 @@ impl App {
             if !self.constant.is_fqdn() {
                 // Unless you've changed system configuration to point to a
                 // DNSCAT2 server, this will most certainly not work.
-                warn!("non-FQDN is being used with a system DNS server");
+                //TODO: should this just error and die instead?
+                error!("non-FQDN is being used with a system DNS server");
             }
             server
         };
