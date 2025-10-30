@@ -65,3 +65,4 @@ dnscat-client example.com. --server 127.0.0.1:53531 \
 ```
 
 [DNSCAT2 protocol]: https://github.com/iagox86/dnscat2/blob/master/doc/protocol.md
+
